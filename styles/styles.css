@@ -1,64 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  font: 400 11px/1.4 sans-serif;
+  margin: 0;
+  background: #fff;
+  height: 100%;
+  min-height: 100%;
+  word-break: break-word;
+  -webkit-word-break: break-word;
+}
+
+.button {
+  position: absolute;
+  top: 50px;
+  left: 80px;
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.button:hover {
+  color: black;
+  background-color: white;
+}
+
 .classy {
-    background: #f3c9d7;
-    padding: 30px;
+  background: url("../assets/images/beach-background2.jpg") center center fixed;
+  background-size: cover;
 }
 
 .face {
-    width: 100px;
-    height: 100px;
-    background-color: blanchedalmond;
-    margin-bottom: 10px;
-    border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  margin-bottom: 10px;
+  border-radius: 50%;
 }
 
+.master-torso {
+  width: 230px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
 
-.torso {
-    width: 150px;
-    height: 300px;
-    background-color: blanchedalmond;
-    padding-top: 30px;
+.arm {
+  width: 30px;
+  height: 250px;
+  background-color: blanchedalmond;
+  margin-top: 10px;
+}
+
+.left-arm {
+  border-top-left-radius: 50%;
+}
+
+.right-arm {
+  border-top-right-radius: 50%;
+}
+
+.slave-torso {
+  width: 150px;
+  height: 100%;
+  background-color: blanchedalmond;
+  padding-top: 30px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
 .chest {
-    width: 100%;
-    height: 30%;
-    background-color: rgb(241, 211, 165);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  width: 100%;
+  height: 30%;
+  background-color: rgb(241, 211, 165);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.pec+.pec {
-    margin-left: 24%;
+.pec + .pec {
+  margin-left: 24%;
 }
 
-.left-pec {}
+.left-pec {
+}
 
-.right-pec {}
+.right-pec {
+}
 
 .pec {
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
 }
 
 .legs {
-    width: 80px;
-    height: 300px;
-    background-color: blanchedalmond;
-    overflow: hidden;
-    padding: 5px;
+  width: 80px;
+  height: 300px;
+  background-color: blanchedalmond;
+  overflow: hidden;
+  padding: 5px;
 }
 
 .legs div {
-    font-size: 11px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
-    text-align: center;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  text-align: center;
 }
 
 .centered {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
